@@ -1,0 +1,348 @@
+@font-face{
+    font-family: "Segoe UI";
+   src: url(./Seriozul/Segoe UI.ttf)
+}
+
+@font-face{
+    font-family: "Ubuntu";
+   src: url(./Seriozul/Ubuntu.ttf)
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;  
+}
+
+.Logo{
+    margin-top: 34px;
+}
+
+.col1{
+    width:100%;
+    background-color: #FFFFFF;
+}
+
+nav{
+    margin-top: 48px;
+    padding-bottom: 20px;
+}
+
+a{
+    font-family: "Segoe UI";
+    text-decoration: none;
+    padding:30px;
+    color:#957554;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.col2{
+   width:100%;
+   height: 119px;
+   background-color: #111111;
+}
+
+.button{
+    background-color: #DFAA5B;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;  
+    color: #FFFFFF;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.City,.CheckIn,.CheckOut{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.col3{
+    padding: 30px;
+}
+
+.view{
+    width: 100%;
+    position:absolute; 
+    z-index: -1;
+}
+
+.col4{
+    width: 100%;
+    position:relative;
+    margin-top: 350px;
+}
+
+.WEL{
+    font-family: "Segoe UI";
+    font-size: 80px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Good{
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-align: center;  
+}
+
+.button1{
+    color: #FFFFFF;
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    background-color: #DFAA5B;
+    height: 76px;
+    width: 371px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid  #DFAA5B;
+}
+
+.col5{
+    width: 90%;
+    Height:289px;
+    background-color: #FFFFFF;
+    z-index: -1;
+    margin-top: 100px;
+    border: 1px solid  #FFFFFF;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px; 
+    color:#957554;
+}
+
+p{
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color:#957554;
+}
+
+.col52{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 197px;
+    margin-left: 197px;
+}
+
+.fa-server,.material-icons,.fa-wifi,.fa-taxi{
+    color:#DFAA5B;
+}
+
+.col6{
+    display: flex;
+    flex-wrap:wrap ;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+}
+
+.button2{
+    height: 76px;
+    width: 244px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    stroke: #000000;
+}
+
+.title{
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.col7{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    width: 630px;
+    border-radius: 10px;
+    background-image: url("room1.png");
+    background-repeat: no-repeat, repeat;
+}
+
+.col9{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    width: 630px;
+    border-radius: 10px;
+    background-image: url("room2.png");
+    background-repeat: no-repeat, repeat;
+}
+
+.col11{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    width: 630px;
+    border-radius: 10px;
+    background-image: url("room3.png");
+    background-repeat: no-repeat, repeat;
+}
+
+.col13{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    width: 630px;
+    border-radius: 10px;
+    background-image: url("room4.png");
+    background-repeat: no-repeat, repeat;
+}
+
+.col15{
+    left: 61px;
+    top: 2550px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 60px;
+}
+
+.title2{
+    height: 52px;
+    width: 411px;
+    font-family: "Ubuntu";
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #957554;
+}
+
+.button3{
+    height: 76px;
+    width: 418px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    color: #FFFFFF;
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    border: 1px solid #DFAA5B;
+}
+
+.col8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 58px;
+}
+
+.col16{
+    display: flex;
+    width:100%;
+    padding: 61px 70px 131px 55px;
+    background-color: #111111;
+}
+
+.para{
+    font-family: "Ubuntu";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.mail{
+    height: 75px;
+    width: 371px;
+    border-radius: 10px;
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.button4{
+    height: 75px;
+    width: 371px;
+    border-radius: 10px;
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    background-color: #DFAA5B;
+    text-align: center;
+}
+
+.info{
+    font-family: "Ubuntu";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 0;
+    text-align: left;
+}
+
+.col17,.col19,.col20{
+    width: 33.3%;
+}
+
+.col21{
+    padding-left: 100px;
+}
+
+.col19{
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+.col191{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.para2{
+    margin-left: 30px;
+}
